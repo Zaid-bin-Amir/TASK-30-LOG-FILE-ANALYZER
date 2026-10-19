@@ -1,0 +1,45 @@
+==================================================
+SERVER LOG SUMMARY REPORT
+==================================================
+Total valid requests : 500
+Malformed lines      : 2
+Total data transferred: 2231386 bytes
+
+--- Error Summary ---
+Client errors (4xx)  : 170
+Server errors (5xx)  : 63
+Total errors         : 233
+Error rate           : 46.60%
+
+--- Requests by Method ---
+GET      252
+PUT      86
+DELETE   81
+POST     81
+
+--- Requests by Status Code ---
+200      164
+201      28
+301      31
+304      44
+400      46
+401      31
+403      28
+404      65
+500      36
+503      27
+
+--- Top 5 IP Addresses ---
+1. 10.0.0.8           76 requests
+2. 198.51.100.14      71 requests
+3. 8.8.8.8            71 requests
+4. 10.0.0.5           57 requests
+5. 192.168.1.25       57 requests
+
+--- Top 5 Most Requested Endpoints ---
+1. /login             64 requests
+2. /cart              60 requests
+3. /home              54 requests
+4. /products          52 requests
+5. /api/users         50 requests
+==================================================
